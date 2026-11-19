@@ -1,7 +1,7 @@
 {
   "title": "Four toolbar directions for Excalidraw",
-  "summary": "Four approaches to making tools easier to find and use: fewer choices, clearer groups, visible shortcuts, or larger targets.",
-  "favorite": "playful",
+  "summary": "Compare four approaches to making tools easier to find and use. Big and touch friendly is the new default on desktop and tablet.",
+  "favorite": "touch",
   "variations": [
     {
       "slug": "minimal",
@@ -13,8 +13,7 @@
       "slug": "playful",
       "name": "Playful and expressive",
       "idea": "A sketchbook palette groups tools by task, with labeled stickers, a tool pocket, and a live mark for the active tool.",
-      "screenshot": "shots/playful.png",
-      "why": "Visible tool names and task-based groups address the guessing in the brief while keeping the hand-drawn feel."
+      "screenshot": "shots/playful.png"
     },
     {
       "slug": "dense",
@@ -26,10 +25,20 @@
       "slug": "touch",
       "name": "Big and touch friendly",
       "idea": "Large labeled tools in a low dock, within easy reach of either hand.",
-      "screenshot": "shots/touch.png"
+      "screenshot": "shots/touch.png",
+      "why": "Large, labeled buttons make tools easier to find and tap, and the bottom dock keeps them within reach."
     }
   ],
-  "video": null,
-  "pr": null,
+  "video": {
+    "src": "demo.mp4",
+    "captions": "demo.vtt",
+    "poster": "demo.jpg",
+    "title": "Draw three shapes with the touch-friendly toolbar"
+  },
+  "pr": {
+    "url": "https://github.com/eli-w-king/excalidraw-case-study-demo/pull/1",
+    "title": "Toolbar: ship the touch-friendly layout and variation lab",
+    "number": 1
+  },
   "updated": "2026-11-19"
 }
