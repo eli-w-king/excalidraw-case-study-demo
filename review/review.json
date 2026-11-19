@@ -1,9 +1,35 @@
 {
-  "title": "",
-  "summary": "",
-  "favorite": "",
-  "variations": [],
+  "title": "Four toolbar directions for Excalidraw",
+  "summary": "Four approaches to making tools easier to find and use: fewer choices, clearer groups, visible shortcuts, or larger targets.",
+  "favorite": "playful",
+  "variations": [
+    {
+      "slug": "minimal",
+      "name": "Minimal and calm",
+      "idea": "Keep five sketching essentials in view and tuck the rest behind More tools.",
+      "screenshot": "shots/minimal.png"
+    },
+    {
+      "slug": "playful",
+      "name": "Playful and expressive",
+      "idea": "A sketchbook palette groups tools by task, with labeled stickers, a tool pocket, and a live mark for the active tool.",
+      "screenshot": "shots/playful.png",
+      "why": "Visible tool names and task-based groups address the guessing in the brief while keeping the hand-drawn feel."
+    },
+    {
+      "slug": "dense",
+      "name": "Dense for power users",
+      "idea": "Every tool and existing shortcut in a compact, grouped command deck.",
+      "screenshot": "shots/dense.png"
+    },
+    {
+      "slug": "touch",
+      "name": "Big and touch friendly",
+      "idea": "Large labeled tools in a low dock, within easy reach of either hand.",
+      "screenshot": "shots/touch.png"
+    }
+  ],
   "video": null,
   "pr": null,
-  "updated": ""
+  "updated": "2026-11-19"
 }
