@@ -17,7 +17,7 @@ npm start
 
 `npm start` prints the local URL (the first free port from 3000 up) and saves it in `.workshop/server.json`. On Windows PowerShell, type `npm.cmd` instead of `npm`.
 
-On the desktop and tablet toolbar, turn on **Keep tool active** to draw several shapes with the same tool. Turn it off to return to Selection after each shape. Press **Q** to toggle it.
+On desktop and tablet, **Big and touch friendly** is the default toolbar. Use the **Toolbar** menu at the bottom or press **[** and **]** to try the other layouts. Turn on **Keep tool active** to draw several shapes with the same tool, or press **Q** to toggle it.
 
 Other scripts:
 
