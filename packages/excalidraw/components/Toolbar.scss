@@ -15,6 +15,36 @@
       }
     }
 
+    .ToolIcon__lock {
+      .ToolIcon__icon {
+        width: auto;
+        gap: 0.375rem;
+        padding-inline: 0.5rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+
+      &.ToolIcon--checked .ToolIcon__icon {
+        color: var(--color-on-primary-container);
+      }
+
+      @media (max-width: 700px) {
+        .ToolIcon__icon {
+          width: var(--lg-button-size);
+          padding-inline: 0.125rem;
+          font-size: 0.625rem;
+          line-height: 1;
+          text-align: center;
+          white-space: normal;
+
+          svg {
+            display: none;
+          }
+        }
+      }
+    }
+
     &__divider {
       width: 1px;
       height: 1.5rem;

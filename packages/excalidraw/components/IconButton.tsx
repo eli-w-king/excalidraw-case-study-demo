@@ -188,6 +188,7 @@ export const IconButton = React.forwardRef(
       >
         <div className="ToolIcon__icon">
           {props.icon}
+          {props.label && <span aria-hidden="true">{props.label}</span>}
           {props.keyBindingLabel && (
             <span className="ToolIcon__keybinding">
               {props.keyBindingLabel}
