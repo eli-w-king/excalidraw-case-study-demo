@@ -1,5 +1,7 @@
 import clsx from "clsx";
 
+import { t } from "../i18n";
+
 import { IconButton } from "./IconButton";
 import { LockedIcon, UnlockedIcon } from "./icons";
 
@@ -17,10 +19,12 @@ export const LockButton = (props: LockButtonProps) => {
       className={clsx("ToolIcon__lock", { "is-mobile": props.isMobile })}
       type="toggle"
       icon={props.checked ? LockedIcon : UnlockedIcon}
+      label={t("toolBar.keepToolActive")}
       checked={props.checked}
       disabled={props.disabled}
       title={`${props.title} · Q`}
       aria-label={`${props.title}`}
+      aria-keyshortcuts="Q"
       data-testid="toolbar-lock"
       onSelect={() => props.onChange?.()}
     />
